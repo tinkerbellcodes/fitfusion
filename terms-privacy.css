@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+    color: #D81621;  
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+/* Container to hold both the image and the heading */
+#header {
+    display: flex;
+    align-items: center; /* This will align the text and image vertically in the center */
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#gymName {
+    margin-left: 1.875rem;  /* 30px */
+    margin-right: 3.125rem; /* 50px */
+}
+
+img { /* This is the logo */
+    width: 5.25rem;   /* 84px */
+    height: 4.0625rem; /* 65px */
+    margin-right: 5rem; /* 80px */
+    margin-left: 5.3125rem; /* 85px */
+}
+
+/* Text Styles */
+h1 {
+    text-align: left;
+    margin: 0.3125rem; /* 5px */
+    font-size: 3.3125rem; /* 53px */
+    color: white;
+}
+
+h2 {
+    margin-left: 0.4375rem; /* 7px */
+    font-size: 1.6875rem; /* 27px */
+    margin: 1.25rem; /* 20px */
+    color: white;
+}
+
+/* Sign Up Button */
+.signup1 {
+    background-color: red;
+    color: white;
+    padding: 0.3125rem 0.625rem; /* 5px 10px */
+    border-radius: 0.3125rem; /* 5px */
+}
+
+.signup1:hover {
+    background-color: #D81621;
+}
+
+/* Footer Text */
+.fotter-left{
+    display: inline-flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    margin: 3vw;
+}
+.fotter-right{
+    display: flex;
+    justify-content:flex-end ;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fotter-right.fotter-text3{
+    display: flex;
+}
+.fotter-text1 {
+    color: aliceblue;
+    font-size: 4rem;
+    /*display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;*/
+}
+
+.fotter-text2 {
+    color: aliceblue;
+    font-size: 2.8125rem; /* 45px */
+}
+
+.fotter-text3 {
+    color: aliceblue;
+    font-size: 1.875rem; /* 30px */
+    line-height: 3rem;
+}
+
+.fotter-text4 {
+    color: aliceblue;
+    font-size: 1.875rem; /* 30px */
+}
+
+.fotter-text2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.fotter-text2 a:hover {
+    color: rgb(201, 207, 213);
+}
+
+.fotter-text3 a, 
+.fotter-text4 a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.fotter-text3:hover,
+.fotter-text4:hover {
+    color: rgb(201, 207, 213);
+}
+
+/* Highlighted Text */
+.highlight {
+    color: rgb(218, 0, 0);
+    font-weight: bolder;
+}
+
+/* Terms and Conditions */
+.t-c {
+    font-size: 1.125rem; 
+    color: aliceblue;
+}
+/* Social Media Icons */
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3rem;
+}
+
+/* Font Awesome Icons */
+.fa-brands.fa-instagram.fa-4x,
+.fa-brands.fa-square-facebook.fa-4x,
+.fa-brands.fa-x-twitter.fa-4x {
+    color: aliceblue;
+}
+
+.fa-brands.fa-instagram.fa-4x:hover,
+.fa-brands.fa-square-facebook.fa-4x:hover,
+.fa-brands.fa-x-twitter.fa-4x:hover {
+    color: rgb(184, 184, 184);
+}
+
+/* Arrow Icon */
+.fa-solid.fa-arrow-up.fa-5x {
+    color: aliceblue;
+}
+.fa-solid.fa-arrow-up.fa-5x:hover {
+    color: rgb(184, 184, 184);
+}

@@ -1,0 +1,187 @@
+    body {
+        background-color: black;
+        color: #D81621;
+    }
+
+    html {
+        scroll-behavior: smooth; 
+    }
+
+    /* Container to hold both the image and the heading */
+    #header {
+        display: flex;
+        align-items: center; /* This will align the text and image vertically in the center */
+    }
+
+    #header a {
+        text-decoration: none;
+    }
+
+    #gymName {
+        margin-left: 1.875rem;  
+        margin-right: 3.125rem; 
+    }
+
+    img { /* This is the logo */
+        width: 5.25rem;   
+        height: 4.0625rem; 
+        margin-right: 5rem; 
+        margin-left: 5.3125rem; 
+    }
+
+    /* Text Styles */
+    h1 {
+        text-align: left;
+        margin: 0.3125rem; 
+        font-size: 3.3125rem; 
+        color: white;
+    }
+
+    h2 {
+        margin-left: 0.4375rem;
+        font-size: 1.6875rem; 
+        margin: 1.25rem; 
+        color: white;
+    }
+
+    /* Sign Up Button */
+    .signup1 {
+        background-color: red;
+        color: white;
+        padding: 0.3125rem 0.625rem;
+        border-radius: 0.3125rem; 
+    }
+
+    .signup1:hover {
+        background-color: #D81621;
+    }
+    .center-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .red-box{
+        background-color: rgb(196, 11, 21);
+        width: 70rem;
+        height: 70rem;
+        border-radius: 2rem;
+        box-shadow: 10px 20px 30px 1rem rgb(159, 0, 0) inset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .map{
+        margin-top: 0%;
+        border-radius: 2rem;
+    }
+    .info1{
+        color: aliceblue;
+        font-size: 3rem;
+        text-align: center;
+        margin:2%;
+    }
+    .info2{
+        color: aliceblue;
+        font-size: 5vh;
+        text-align: center;
+        margin: 0%;
+    }
+    .contacts{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem;
+    }
+    .info3{
+        color: aliceblue;
+        font-size: 5vh;
+        
+    }
+    .info4{
+        color: aliceblue;
+        font-size: 5vh;
+        
+    }
+
+
+    /* Footer Text */
+    .fotter-text1 {
+        color: aliceblue;
+        font-size: 4rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .fotter-text2 {
+        display: flex;
+        color: aliceblue;
+        font-size: 2.8125rem; 
+    }
+
+    .fotter-text3 {
+        color: aliceblue;
+        display: flex;
+        font-size: 1.875rem; 
+        line-height: 3rem;
+    }
+
+    .fotter-text4 {
+        color: aliceblue;
+        display: flex;
+        font-size: 1.875rem; 
+    }
+
+    .fotter-text2 a {
+        color: white;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    .fotter-text2 a:hover {
+        color: rgb(201, 207, 213);
+    }
+
+    .fotter-text3 a, 
+    .fotter-text4 a {
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    .fotter-text3:hover,
+    .fotter-text4:hover {
+        color: rgb(201, 207, 213);
+    }
+
+    /* Highlighted Text */
+    .highlight {
+        color: rgb(218, 0, 0);
+        font-weight: bolder;
+    }
+
+
+    /* Social Media Icons */
+    .icons {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Font Awesome Icons */
+    .fa-brands.fa-instagram.fa-4x,
+    .fa-brands.fa-square-facebook.fa-4x,
+    .fa-brands.fa-x-twitter.fa-4x {
+        color: aliceblue;
+    }
+
+    .fa-brands.fa-instagram.fa-4x:hover,
+    .fa-brands.fa-square-facebook.fa-4x:hover,
+    .fa-brands.fa-x-twitter.fa-4x:hover {
+        color: rgb(184, 184, 184);
+    }
+
+    /* Arrow Icon */
+    .fa-solid.fa-arrow-up.fa-5x {
+        color: aliceblue;
+    }
