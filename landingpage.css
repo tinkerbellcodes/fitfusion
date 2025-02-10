@@ -141,97 +141,106 @@ h2:hover{
     border-radius: 10vh;
     
 }
-.fotter-text1{
-    color: aliceblue;
-    position: relative;
-    top: 40rem;
-    font-size: 4rem;
-    padding-left: 8rem;
-}
-.fotter-text2{
-    color:aliceblue;
-    position: absolute;
+/* Footer Text */
+.fotter{
     display: flex;
-    top: 153rem;
-    font-size: 45px;
-    padding-left: 8rem;
+    justify-content: space-between;
+}
+.fotter-left{
+    justify-content:flex-start ;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.fotter-right{
+    
+    justify-content:flex-end ;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    line-height: 0%;
+}
+.fotter-text1 {
+    color: aliceblue;
+    font-size: 4rem;
+    /*display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;*/
+    margin: 0%;
+}
+
+.fotter-text2 {
+    color: aliceblue;
+    font-size: 2.8125rem; /* 45px */
+    margin: 0%;
+}
+
+.fotter-text3, .fotter-text4{
+    color: aliceblue;
+    font-size: 1.875rem; /* 30px */
+    text-align: center;
+    line-height: 1.4rem;
 }
 .fotter-text2 a {
     color: white;
     text-decoration: none;
     font-weight: normal;
 }
+
 .fotter-text2 a:hover {
     color: rgb(201, 207, 213);
 }
 
-.fotter-text3{
-    color: aliceblue;
-    position: absolute;
-    display: flex;
-    left:72rem;
-    top:151rem;
-    font-size: 30px;
-    padding-right: 8rem;
-    line-height: 3rem
-    
-    
-}
-.fotter-text4{
-    color: aliceblue;
-    position: absolute;
-    display: flex;
-    left:70rem;
-    top:154rem;
-    font-size: 30px;
-    padding-right: 8rem;
+.fotter-text3 a, 
+.fotter-text4 a {
+    text-decoration: none;
+    font-weight: normal;
 }
 
-.fotter-text3:hover{
+.fotter-text3:hover,
+.fotter-text4:hover {
     color: rgb(201, 207, 213);
 }
-.fotter-text4:hover{
-    color: rgb(201, 207, 213);
-}
-.highlight{
+
+/* Highlighted Text */
+.highlight {
     color: rgb(218, 0, 0);
     font-weight: bolder;
 }
-.icons{
-    position: relative;
-}
-.icons-position{
-    position: absolute;
-    left: 72rem;
-    top: 28rem;
-    right: 0rem;
-    
-}
-.fa-brands.fa-instagram.fa-4x{
+
+/* Terms and Conditions */
+.t-c {
+    font-size: 1.7rem; 
     color: aliceblue;
-    margin-right: 28px;
-}  
-.fa-brands.fa-instagram.fa-4x:hover{
-    color: rgb(184, 184, 184);
-}  
-.fa-brands.fa-square-facebook.fa-4x{
+}
+.terms{
+    font-size: 3rem;
+}
+/* Social Media Icons */
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Font Awesome Icons */
+.fa-brands.fa-instagram.fa-3x,
+.fa-brands.fa-square-facebook.fa-3x,
+.fa-brands.fa-x-twitter.fa-3x {
     color: aliceblue;
-    margin-right: 28px;
+    padding-left:1.5rem ;
 }
-.fa-brands.fa-square-facebook.fa-4x:hover{
-    color: rgb(184, 184, 184);
-}
-.fa-brands.fa-x-twitter.fa-4x{
-    color: aliceblue;
-    margin-right: 28px;
-}
-.fa-brands.fa-x-twitter.fa-4x:hover{
+
+.fa-brands.fa-instagram.fa-3x:hover,
+.fa-brands.fa-square-facebook.fa-3x:hover,
+.fa-brands.fa-x-twitter.fa-3x:hover {
     color: rgb(184, 184, 184);
 }
-.fa-solid.fa-arrow-up.fa-5x{
+
+/* Arrow Icon */
+.fa-solid.fa-arrow-up.fa-4x {
     color: aliceblue;
-    position: absolute;
-    left: 20rem;
-    top: 3rem;
-    
+    margin-left: 2rem;
+}
+.fa-solid.fa-arrow-up.fa-4x:hover {
+    color: rgb(184, 184, 184);
 }
