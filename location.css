@@ -64,7 +64,7 @@
     .red-box{
         background-color: rgb(196, 11, 21);
         width: 70rem;
-        height: 70rem;
+        height: 67rem;
         border-radius: 2rem;
         box-shadow: 10px 20px 30px 1rem rgb(159, 0, 0) inset;
         display: flex;
@@ -80,32 +80,48 @@
         color: aliceblue;
         font-size: 3rem;
         text-align: center;
-        margin:2%;
+        margin:0%;
     }
     .info2{
         color: aliceblue;
         font-size: 5vh;
         text-align: center;
-        margin: 0%;
+        margin: 0.6%;
     }
+
     .contacts{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 2rem;
+        padding: 1rem;
     }
     .info3{
         color: aliceblue;
         font-size: 5vh;
-        
+    }
+    .contact1{
+        text-align: center;
+        margin: 0%;
+        border-color: aliceblue;
+        border-radius: 2rem;
+        border-style: solid ;
+        padding: 0.7vw;
+        background-color: rgb(255, 255, 255, 0.2);
     }
     .info4{
         color: aliceblue;
         font-size: 5vh;
-        
+        text-align: center;
     }
-
-
+    .contact2{
+        text-align: center;
+        margin: 0%;
+        border-color: aliceblue;
+        border-radius: 2rem;
+        border-style: solid ;
+        padding: 0.7vw;
+        background-color: rgb(255, 255, 255, 0.2);
+    }
     /* Footer Text */
     .fotter-text1 {
         color: aliceblue;
