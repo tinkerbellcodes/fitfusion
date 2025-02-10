@@ -57,20 +57,23 @@ h2 {
 }
 
 /* Footer Text */
+.fotter{
+    display: flex;
+    justify-content: space-between;
+}
 .fotter-left{
-    display: inline-flex;
     justify-content:flex-start ;
     flex-direction: column;
-    margin: 3vw;
+    margin-left: 4rem;
 }
 .fotter-right{
-    display: flex;
+    
     justify-content:flex-end ;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-}
-.fotter-right.fotter-text3{
-    display: flex;
+    margin-right: 4rem;
+    line-height: 0%;
 }
 .fotter-text1 {
     color: aliceblue;
@@ -78,24 +81,21 @@ h2 {
     /*display: flex;
     justify-content: flex-start;
     align-items: flex-end;*/
+    margin: 0%;
 }
 
 .fotter-text2 {
     color: aliceblue;
     font-size: 2.8125rem; /* 45px */
+    margin: 0%;
 }
 
-.fotter-text3 {
+.fotter-text3, .fotter-text4{
     color: aliceblue;
     font-size: 1.875rem; /* 30px */
-    line-height: 3rem;
+    text-align: center;
+    line-height: 1.4rem;
 }
-
-.fotter-text4 {
-    color: aliceblue;
-    font-size: 1.875rem; /* 30px */
-}
-
 .fotter-text2 a {
     color: white;
     text-decoration: none;
@@ -125,33 +125,37 @@ h2 {
 
 /* Terms and Conditions */
 .t-c {
-    font-size: 1.125rem; 
+    font-size: 1.7rem; 
     color: aliceblue;
+}
+.terms{
+    font-size: 3rem;
 }
 /* Social Media Icons */
 .icons {
     display: flex;
     justify-content: flex-end;
-    margin: 3rem;
 }
 
 /* Font Awesome Icons */
-.fa-brands.fa-instagram.fa-4x,
-.fa-brands.fa-square-facebook.fa-4x,
-.fa-brands.fa-x-twitter.fa-4x {
+.fa-brands.fa-instagram.fa-3x,
+.fa-brands.fa-square-facebook.fa-3x,
+.fa-brands.fa-x-twitter.fa-3x {
     color: aliceblue;
+    padding-left:1.5rem ;
 }
 
-.fa-brands.fa-instagram.fa-4x:hover,
-.fa-brands.fa-square-facebook.fa-4x:hover,
-.fa-brands.fa-x-twitter.fa-4x:hover {
+.fa-brands.fa-instagram.fa-3x:hover,
+.fa-brands.fa-square-facebook.fa-3x:hover,
+.fa-brands.fa-x-twitter.fa-3x:hover {
     color: rgb(184, 184, 184);
 }
 
 /* Arrow Icon */
-.fa-solid.fa-arrow-up.fa-5x {
+.fa-solid.fa-arrow-up.fa-4x {
     color: aliceblue;
+    margin-left: 2rem;
 }
-.fa-solid.fa-arrow-up.fa-5x:hover {
+.fa-solid.fa-arrow-up.fa-4x:hover {
     color: rgb(184, 184, 184);
 }
