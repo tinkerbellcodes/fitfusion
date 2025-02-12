@@ -124,12 +124,58 @@ h2 {
 }
 
 /* Terms and Conditions */
+.box1{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    transition: height 0.3s ease;
+    position: relative;
+}
+.animation-vis{
+  display: block;
+}
+.animation-hid{
+    display: none;
+}
+.box1:hover .animation-hid{
+    display: block;
+}
+.box1:hover .animation-vis{
+    display: none;
+}
 .t-c {
     font-size: 1.7rem; 
-    color: aliceblue;
+    color: #F3C1C1;
+    margin: 2rem;
+    background-color: #A91818;
+    height: 80%;
+    width: 93%;
+    border-radius: 4rem;
+    padding: 1rem;
+    
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.p-p{
+    font-size: 1.7rem; 
+    color: #F3C1C1;
+    margin: 2rem;
+    background-color: #A91818;
+    height: 80%;
+    width: 93%;
+    border-radius: 4rem;
+    padding: 1rem;
 }
 .terms{
+    font-size: 3rem;  
+}
+.privacy{
     font-size: 3rem;
+}
+strong{
+    color: aliceblue;
 }
 /* Social Media Icons */
 .icons {

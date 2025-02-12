@@ -10,9 +10,9 @@ html {
 
 /* Container to hold both the image and the heading */
 #header {
-    display: flex ;
+    display: inline-flex ;
     align-items: center; /* This will align the text and image vertically in the center */
-    /*position: fixed;*/
+    flex-direction: row;
 }
 #header a {
     text-decoration: none; 
@@ -140,6 +140,20 @@ h2:hover{
     margin-right: 0%;
     border-radius: 10vh;
     
+}
+/*MEMBERSHIP PLANS*/
+.membership-plans-box{
+    display: flex;
+    justify-content: center;
+}
+.acutul-box{
+    height: 100vh;
+    width: 82vw;
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 0%, rgba(108,108,108,1) 59%, rgba(96,96,96,1) 66%, rgba(68,68,68,1) 87%, rgba(61,61,61,1) 100%);
+    border-radius: 3rem;
+}
+.text-membership{
+    color: white;
 }
 /* Footer Text */
 .fotter{

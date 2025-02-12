@@ -71,13 +71,14 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 6rem;
     }
     .map{
         margin-top: 0%;
         border-radius: 2rem;
     }
     .info1{
-        color: aliceblue;
+        color: rgb(255, 240, 240);
         font-size: 3rem;
         text-align: center;
         margin:0%;
@@ -87,6 +88,7 @@
         font-size: 5vh;
         text-align: center;
         margin: 0.6%;
+        padding: 1.2vh;
     }
 
     .contacts{
@@ -105,7 +107,7 @@
         border-color: aliceblue;
         border-radius: 2rem;
         border-style: solid ;
-        padding: 0.7vw;
+        padding: 0.4vw;
         background-color: rgb(255, 255, 255, 0.2);
     }
     .info4{
@@ -126,6 +128,7 @@
 .fotter{
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 .fotter-left{
     justify-content:flex-start ;
@@ -172,7 +175,7 @@
     color: rgb(201, 207, 213);
 }
 
-.fotter-text3 a, 
+.fotter-text3 a,
 .fotter-text4 a {
     text-decoration: none;
     font-weight: normal;
@@ -181,6 +184,7 @@
 .fotter-text3:hover,
 .fotter-text4:hover {
     color: rgb(201, 207, 213);
+    text-decoration: none;
 }
 
 /* Highlighted Text */
@@ -189,14 +193,6 @@
     font-weight: bolder;
 }
 
-/* Terms and Conditions */
-.t-c {
-    font-size: 1.7rem; 
-    color: aliceblue;
-}
-.terms{
-    font-size: 3rem;
-}
 /* Social Media Icons */
 .icons {
     display: flex;
