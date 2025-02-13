@@ -149,12 +149,38 @@ h2:hover{
 .acutul-box{
     height: 100vh;
     width: 82vw;
-    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 0%, rgba(108,108,108,1) 59%, rgba(96,96,96,1) 66%, rgba(68,68,68,1) 87%, rgba(61,61,61,1) 100%);
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(231,231,231,1) 0%, rgba(108,108,108,1) 59%, rgba(96,96,96,1) 66%, rgb(55, 55, 55) 87%, rgb(45, 45, 45) 100%);
     border-radius: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 .text-membership{
     color: white;
+    background: rgb(29,29,29);
+background: linear-gradient(140deg, rgb(0, 0, 0) 0%, rgb(42, 42, 42) 23%, rgb(51, 51, 51) 57%, rgb(121, 121, 121) 85%);
+-webkit-background-clip: text;
+   color: transparent;
+font-size: 4rem;
+display: flex;
+margin: 0;
+} 
+/*actual plan*/
+.plans{
+    height: 40vh;
+    width: 27vw;
+    background: rgb(181,181,181);
+    background: linear-gradient(360deg, rgba(181,181,181,1) 12%, rgba(191,191,191,1) 35%, rgba(230,230,230,1) 70%);
+    border-radius: 3rem;
+    display: flex;
 }
+.first-plan{
+    color: #000000;
+    display: inline-flex;
+    margin: 0%;
+
+}
+
 /* Footer Text */
 .fotter{
     display: flex;

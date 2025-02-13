@@ -124,25 +124,7 @@ h2 {
 }
 
 /* Terms and Conditions */
-.box1{
-    display: flex;
-    justify-content: center;
-    height: auto;
-    transition: height 0.3s ease;
-    position: relative;
-}
-.animation-vis{
-  display: block;
-}
-.animation-hid{
-    display: none;
-}
-.box1:hover .animation-hid{
-    display: block;
-}
-.box1:hover .animation-vis{
-    display: none;
-}
+
 .t-c {
     font-size: 1.7rem; 
     color: #F3C1C1;
@@ -154,11 +136,31 @@ h2 {
     padding: 1rem;
     
 }
+.box1{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    transition: height 0.3s ease;
+    position: relative;
+    /*box-shadow: 2rem, 5rem, 4rem, 5em, #595959 ;*/
+}
+.animation-vis{
+  display: block;
+}
+.animation-hid{
+    display: none;
+}
+.t-c:hover .animation-hid, .t-c:hover .animation-vis{
+    display: block;
+    cursor: pointer;
+
+}
+/*privacy policy*/
 .box2{
     display: flex;
     justify-content: center;
 }
-.p-p{
+.pripol{
     font-size: 1.7rem; 
     color: #F3C1C1;
     margin: 2rem;
@@ -174,6 +176,16 @@ h2 {
 .privacy{
     font-size: 3rem;
 }
+.animation-vis{
+    display: block;
+  }
+  .animation-hid{
+      display: none;
+  }
+  .pripol:hover .animation-hid, .pripol:hover .animation-vis{
+      display: block;
+      cursor: pointer;
+  }
 strong{
     color: aliceblue;
 }
